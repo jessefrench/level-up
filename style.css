@@ -62,6 +62,7 @@ li.right{
   padding: 10px 0;
   width: 75px;
   background: white;
+  border-radius: 5px;
 }
 li.right a{
   color: #66768a;
@@ -78,7 +79,7 @@ main{
   text-align: center;
 }
 h1{
-  padding-top: 75px;
+  padding-top: 50px;
   font-size: 72px;
   font-weight: 600;
   color: white;
