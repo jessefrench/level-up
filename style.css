@@ -1,0 +1,292 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+
+/***************** HEADER ******************/
+header{
+  height: 75px;
+  width: 100%;
+  background: #20170e;
+}
+header nav{
+  text-align: center;
+}
+header li{
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+header a{
+  color: white;
+  text-decoration: none;
+}
+li.left{
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+li.right{
+  float: right;
+  margin-right: 50px;
+  padding: 10px 0;
+  width: 75px;
+  background: white;
+}
+li.right a{
+  color: #66768a;
+}
+/***************** HEADER ******************/
+
+/****************** MAIN *******************/
+main{
+  height: auto;
+  width: 100%;
+  background: url("Assets/mike-cox-LpWreRGMK74-unsplash.jpg");
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+}
+h1{
+  padding-top: 75px;
+  font-size: 72px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 50px;
+  text-align: center;
+}
+main p{
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 50%;
+  text-align: center;
+}
+main video{
+  height: auto;
+  width: 50%;
+  padding-bottom: 50px;
+}
+/****************** MAIN *******************/
+
+/***************** SECTION *****************/
+section.why{
+  height: auto;
+  width: 100%;
+}
+section.why h2{
+  font-size: 36px;
+  font-weight: 600;
+  margin: 100px 0 10px 0;
+  text-align: center;
+}
+section.why p{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 100px;
+}
+/***************** SECTION *****************/
+
+/***************** SECTION *****************/
+section.two-boxes{
+  float: left;
+  height: auto;
+  width: 100%;
+  background: #dbdfe2;
+}
+section.left, section.right{
+  float: left;
+  height: auto;
+  width: 50%;
+  margin: 50px 0;
+  text-align: center;
+}
+section.two-boxes img{
+  height: auto;
+  width: 80%;
+  margin-bottom: 20px;
+}
+section.two-boxes p{
+  width: 75%;
+  margin: auto;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+section.two-boxes h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+section.two-boxes a{
+  text-decoration: none;
+  color: black;
+  border: 1px solid ;
+  padding: 10px 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/***************** SECTION *****************/
+
+/***************** SECTION *****************/
+section.volunteer{
+  float: left;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+section.volunteer h2{
+  font-size: 32px;
+  font-weight: 600;
+  margin: 100px 0 25px 0;
+}
+section.volunteer p{
+  width: 43%;
+  margin: auto;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+section.volunteer a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  border: 1px solid black;
+  padding: 15px 40px;
+  margin-bottom: 100px;
+}
+/***************** SECTION *****************/
+
+/***************** FOOTER ******************/
+footer{
+  float: left;
+  height: auto;
+  width: 100%;
+  background: #20170e;
+  color: white;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+}
+footer nav{
+  height: 200px;
+  width: 138px;
+  margin-left: 2%;
+  padding-top: 20px;
+  float: left;
+}
+footer li{
+  float: left;
+}
+footer i{
+  margin: 10px;
+  font-size: 26px;
+}
+li h6{
+  margin: 15px 25px 10px 10px;
+  color: #66768a;
+  font-weight: 600;
+}
+li.links{
+  margin: 0 10px 0 10px;
+  font-weight: 600;
+}
+section.contact{
+  height: 200px;
+  width: 150px;
+  margin-right: 2%;
+  padding-top: 30px;
+  float: right;
+}
+section.contact h5, h6{
+  font-weight: 600;
+}
+section.contact p{
+  margin-top: 10px;
+}
+section.contact a{
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+}
+section.legal{
+  height: auto;
+  width: 95%;
+  padding: 25px 0 10px 0;
+  border-top: 1px solid white;
+  font-weight: 600;
+  float: left;
+  clear: both;
+  margin: 0 2.5%;
+}
+section.legal p{
+  float: left;
+}
+section.legal h6{
+  float: right;
+}
+/***************** FOOTER ******************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+@media screen and (max-width: 1117px){
+  section.left, section.right{
+    width: 90%;
+    margin: 50px 5%;
+  }
+}
+@media screen and (max-width: 450px){
+  h1{
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 400px){
+  li.left{
+    margin-left: 5%;
+  }
+  main p, section.why p, section.volunteer p{
+    width: 80%
+  }
+  main video{
+    width: 90%;
+  }
+}
