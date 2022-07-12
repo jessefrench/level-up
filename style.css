@@ -229,8 +229,7 @@ li.links{
 section.contact{
   height: 200px;
   width: 150px;
-  margin-right: 2%;
-  padding-right: 2%;
+  margin-right: 4%;
   padding-top: 30px;
   float: right;
 }
@@ -246,7 +245,7 @@ section.contact a{
   margin-top: 10px;
 }
  h6.copywright{
-  margin-top: 10px;
+  margin-top: 5px;
 }
 section.legal{
   height: auto;
@@ -260,9 +259,7 @@ section.legal{
 }
 section.legal p{
   float: left;
-}
-section.legal h6{
-  float: right;
+  padding-bottom: 10px;
 }
 /***************** FOOTER ******************/
 
