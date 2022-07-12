@@ -244,6 +244,9 @@ section.contact a{
   display: inline-block;
   margin-top: 10px;
 }
+ h6.copywright{
+  margin-top: 10px;
+}
 section.legal{
   height: auto;
   width: 95%;
