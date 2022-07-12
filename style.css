@@ -205,7 +205,7 @@ footer a{
 }
 footer nav{
   height: 200px;
-  width: 138px;
+  width: 150px;
   margin-left: 2%;
   padding-top: 20px;
   float: left;
@@ -230,6 +230,7 @@ section.contact{
   height: 200px;
   width: 150px;
   margin-right: 2%;
+  padding-right: 2%;
   padding-top: 30px;
   float: right;
 }
